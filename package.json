@@ -2,9 +2,6 @@
   "name": "node-wifi",
   "version": "2.0.0",
   "description": "NodeJS tool to manage wifi",
-  "bin": {
-    "wifi": "bin/wifi.js"
-  },
   "main": "src/wifi.js",
   "directories": {
     "test": "test"
@@ -24,10 +21,6 @@
   "license": "LGPL-3.0",
   "bugs": {
     "url": "https://github.com/friedrith/node-wifi/issues"
-  },
-  "dependencies": {
-    "command-line-args": "^3.0.1",
-    "command-line-usage": "^3.0.3"
   },
   "devDependencies": {
     "dotenv": "^4.0.0"
